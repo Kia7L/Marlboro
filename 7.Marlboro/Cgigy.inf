@@ -1,5 +1,5 @@
 []{
-#Cigarrette....
+#Cigarette....
 float cylinder=2.7
 float Length=3.2
 float2 cigy=(Length,cylinder/cylinder))
