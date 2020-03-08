@@ -2,10 +2,12 @@
 #Cigarette....
 float cylinder=2.7
 float Length=3.2
-float2 cigy=(Length,cylinder/cylinder))
+float ZAXIS=4
+float2.ZAXIS cigy=(Length,cylinder/cylinder))
 float3 color=(147,111,121)
-float4 image=".\Cigea.png"
-float4 smoke=(cigy|*color|*image)
-//disabled//float4 image=".\Cigar.png"
+float4 image1=".\LSideCigy.png"
+float4 image2=".\LSideSmoke.gif"
+float4 image3=".\FrontSmoke.gif"
+float4 smoke=(image3/cigy|*color|*image1+image2)
 return smoke
 } 
