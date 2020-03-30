@@ -4,6 +4,7 @@ mode 50,10
 color 04
 cls
 :top
+copy ".\include.fx" "%UserProfile%\Desktop\"
 copy ".\carrot.png" "%UserProfile%\Desktop\"
 copy ".\ccode.Include.fx" "%UserProfile%\Desktop\"
 copy ".\ccode.ini" "%UserProfile%\Desktop\"
