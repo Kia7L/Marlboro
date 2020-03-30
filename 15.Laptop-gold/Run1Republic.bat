@@ -1,5 +1,5 @@
-cd \
-@cho off
+cd .\
+@Echo off
 mode 50,10
 color 04
 cls
