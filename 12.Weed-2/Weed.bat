@@ -1,4 +1,4 @@
-cd \
+cd .\
 mode 50,10
 color 04
 cls
@@ -8,8 +8,8 @@ copy ".\2.png" "%UserProfile%\Desktop\"
 copy ".\ccode.Include.fx" "%UserProfile%\Desktop\"
 copy ".\ccode.ini" "%UserProfile%\Desktop\"
 timeout /t 10
-del /Y ".\1.png" "%UserProfile%\Desktop\"
-del /Y ".\2.png" "%UserProfile%\Desktop\"
-del /Y ".\ccode.Include.fx" "%UserProfile%\Desktop\"
-del /Y ".\ccode.ini" "%UserProfile%\Desktop\"
+del /F /Q ".\1.png" "%UserProfile%\Desktop\"
+del /F /Q ".\2.png" "%UserProfile%\Desktop\"
+del /F /Q ".\ccode.Include.fx" "%UserProfile%\Desktop\"
+del /F /Q ".\ccode.ini" "%UserProfile%\Desktop\"
 exit
