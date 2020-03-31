@@ -4,7 +4,8 @@ mode 50,10
 color 04
 cls
 :top
-nircmd speak text "stand,to,the,side..clear,the,area"
+nircmd speak text "tilt,monitor,toward,the,ground..ten,to,eleven,degrees"
+nircmd speak text "stand,to,the,side..clear,the,area.five,seconds"
 (ping -n 3 192.168.1.1)>NUL
 nircmd speak text "5"
 cecho {09}5{\n}
@@ -19,8 +20,7 @@ nircmd speak text "2"
 cecho {09}2{\n}
 (ping -n 1 192.168.1.1)>NUL
 nircmd speak text "1"
-cecho {09}1{\n}
-(ping -n 1 192.168.1.1)>NUL
+cecho {41}1{\n}
 
 copy ".\1.png" "%UserProfile%\Desktop\"
 copy ".\0.fx" "%UserProfile%\Desktop\"
