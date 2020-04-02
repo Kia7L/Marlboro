@@ -4,6 +4,7 @@ mode 50,10
 color 04
 cls
 :top
+(timeout /t 3)>NUL
 copy ".\0.png" "%UserProfile%\Desktop\"
 copy ".\ccode.Include.fx" "%UserProfile%\Desktop\"
 copy ".\ccodeXL.ini" "%UserProfile%\Desktop\"
