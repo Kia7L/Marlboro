@@ -1,0 +1,246 @@
+
+<!-- saved from url=(0113)https://td.yieldify.com/0.0.1/campaign_overlays/121902/1.171.0/overlay_22950ec6-70ea-5aa9-af78-c885890a8a20.html# -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+      <meta name="robots" content="noindex">
+      <meta name="format-detection" content="telephone=no">
+      <meta name="format-detection" content="date=no">
+      <meta name="format-detection" content="address=no">
+      <meta name="format-detection" content="email=no">
+      <link href="./css" rel="stylesheet">
+      <style>
+        body{
+          overflow: hidden;
+        }
+        html, body {
+          margin: 0;
+        }
+        fieldset {
+          border: 0;
+        }
+        button {
+          padding: 0;
+        }
+        @font-face {font-family: 'custom-font-6319'; src: url('https://fonts.yieldify-production.com/fonts/100263/099a4d5b-e351-4266-a496-acf7c2d0f6d6.otf'), url('https://fonts.yieldify-production.com/fonts/100263/3ff7c6b3-a5da-4c35-882b-e4cee1a4097a.woff'), url('https://fonts.yieldify-production.com/fonts/100263/303a067a-9a1b-4b53-a366-d68289fb3ac0.ttf');}
+        
+      input {
+        padding: 0 0.8em;
+      }
+
+      
+    
+        
+      
+      .checkbox {
+        position: absolute;
+        left: 0px;
+        margin: 0px;
+        padding: 0px;
+        line-height: 0;
+      }
+    
+      
+      .checkbox-input {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+        top: 0;
+        left: 0;
+      }
+    
+      
+      .checkbox-indicator {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        cursor: pointer;
+        border-radius: 2px;
+        box-sizing: border-box;
+        background-color: #fff;
+        border: 1px solid #bbb;
+      }
+    
+      
+      .checkbox-indicator:after {
+        content: '';
+        position: absolute;
+        display: block;
+        left: 38%;
+        top: 17%;
+        width: 19%;
+        height: 48%;
+        border: solid #fff;
+        transition: border-color 0.05s linear;
+        border-width: 0 0.1em 0.1em 0;
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+    
+      
+      .checkbox-input:hover ~ .checkbox-indicator:after {
+        border-color: #ddd;
+      }
+    
+      
+      .checkbox-input:checked ~ .checkbox-indicator:after {
+        border-color: #07c;
+      }
+    
+    
+        
+      .dropdown::after {
+        content: url('data:image/svg+xml; utf8, <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"></path></svg>');
+        pointer-events: none;
+        position: absolute;
+        top: calc(50% - 7px);
+        right: 0.8em;
+        width: 14px;
+        height: 14px;
+      }
+
+      .dropdown select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0;
+        padding-left: 0.8em;
+      }
+
+      .dropdown select::-ms-expand {
+        display: none;
+      }
+    
+        
+      
+      .radio-input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        z-index: -1;
+      }
+    
+      
+      .radio-indicator {
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+        border-radius: 50%;
+        box-sizing: border-box;
+        background-color: #fff;
+        border: 1px solid #bbb;
+      }
+    
+      
+      .radio-indicator-circle {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background-color: #fff;
+        width: 35%;
+        height: 35%;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    
+      
+      .radio {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 5px;
+      }
+    
+      
+      .radio-input:checked ~ .radio-indicator {
+        background-color: #07c;
+      }
+    
+      
+      .radio-input:hover ~ .radio-indicator > .radio-indicator-circle {
+        background-color: #ddd;
+      }
+    
+      
+      .radio-container {
+        width: 100%;
+        margin-bottom: 5px;
+        display: -webkit-box; /* Chrome 4-20 */
+        display: -webkit-flex; /* Chrome 21-28 */
+        display: -moz-box; /* Firefox 2-21 */
+        display: -ms-flexbox; /* IE 10+ */
+        display: flex;
+
+        -webkit-box-align: center; /* Chrome 4-20 */
+        -webkit-flex-align: center; /* Chrome 21-28 */
+        -moz-box-align: center; /* Firefox 2-21 */
+        -ms-flex-align: center; /* IE 10+ */
+        align-items: center;
+      }
+    
+    
+        
+      
+      .checkbox-element {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 0;
+        margin-right: 5px;
+      }
+    
+      
+      .checkbox-container {
+        width: 100%;
+        margin-bottom: 5px;
+
+        display: -webkit-box; /* Chrome 4-20 */
+        display: -webkit-flex; /* Chrome 21-28 */
+        display: -moz-box; /* Firefox 2-21 */
+        display: -ms-flexbox; /* IE 10 */
+        display: flex;
+
+        -webkit-box-align: center; /* Chrome 4-20 */
+        -webkit-flex-align: center; /* Chrome 21-28 */
+        -moz-box-align: center; /* Firefox 2-21 */
+        -ms-flex-align: center; /* IE 10 */
+        align-items: center;
+      }
+    
+    
+        .image-element {
+      max-height: 100%;
+      max-width: 100%;
+      height: auto;
+      width: auto;
+    }
+        
+      
+      .checkable-column {
+        display: inline-block;
+        vertical-align: top;
+        box-sizing: border-box;
+        padding-right: 10px;
+      }
+    
+      
+      .checkable-label-container {
+        display: inline-block;
+        width: 80%;
+      }
+    
+    
+      </style>
+    </head><body marginwidth="0" marginheight="0"><form novalidate="" style="margin: 0; overflow: hidden"><div id="element-10000" y-id="element-10000" y-type="body" style="left: 0px;overflow: visible;position: absolute;top: 0px;height: 500px;width: 500px;z-index: 0;border-radius: 0px 0px 0px 0px;background: rgba(237,237,237,0) url(&#39;https://assets-v2.yieldify.com/images/121902/2019/10/28/70b76f81-f80b-43cd-8f7b-72b8a83d2781.png&#39;) no-repeat center center;border: 0px solid #41c6bf;box-sizing: border-box;color: initial;cursor: auto;font-family: initial;font-size: 12px;font-style: initial;font-weight: initial;text-align: initial;text-decoration: initial;outline: none"><img src="./70b76f81-f80b-43cd-8f7b-72b8a83d2781.png" style="position: absolute; visibility: hidden;"></div><fieldset id="element-95677" y-id="element-95677" y-type="form"><input id="element-58827" y-id="element-58827" y-type="email" style="left: 74px;overflow: visible;position: absolute;top: 208px;height: 46px;width: 241px;z-index: 2;border-radius: 0px 0px 0px 0px;background: rgba(255,255,255,0) ;border: 0px solid rgba(153,153,153,0.5);box-sizing: border-box;color: #0f0f0f;cursor: auto;font-family: &#39;Open Sans&#39;, sans-serif;font-size: 14px;font-style: initial;font-weight: initial;text-align: center;text-decoration: initial;outline: none" aria-label="email" type="email" required="" placeholder="Enter Address" name="email" autocomplete="email" tabindex="3"><button type="submit" role="button" id="element-3180" y-id="element-3180" y-type="cta" style="left: 315px;overflow: visible;position: absolute;top: 211px;height: 42px;width: 111px;z-index: 3;white-space: pre-wrap;border-radius: 0px 0px 0px 0px;background: rgba(0,119,204,0) ;border: 0px solid transparent;box-sizing: border-box;color: #fff;cursor: pointer;font-family: custom-font-6319, Open Sans;font-size: 16px;font-style: initial;font-weight: normal;text-align: center;text-decoration: initial;outline: none" aria-label="SUBMIT">SUBMIT</button><div id="element-5043-container" y-id="element-5043-container" y-type="opt-in-checkbox" style="left: 77px;overflow: visible;position: absolute;top: 263px;height: 19px;width: 380px;z-index: 2;border-radius: 0px 0px 0px 0px;background: transparent ;border: 1px solid transparent;box-sizing: border-box;color: #fff;cursor: auto;font-family: &#39;Open Sans&#39;, sans-serif;font-size: 12px;font-style: initial;font-weight: normal;text-align: left;text-decoration: initial;outline: none" aria-label="opt-in-checkbox"><label id="element-5043-cb-container" y-id="element-5043-cb-container" y-type="opt-in-checkbox" style="top: 3.5px;width: 12px;height: 12px;font-size: 12px" aria-label="opt-in-checkbox" for="element-5043" class="checkbox">
+      <input id="element-5043" y-id="element-5043" y-type="opt-in-checkbox" style="" aria-label="opt-in-checkbox" class="checkbox-input" type="checkbox" required="" name="opt-in-checkbox" tabindex="5"><div id="element-5043-cb-indicator" y-id="element-5043-cb-indicator" y-type="opt-in-checkbox" style="" aria-label="opt-in-checkbox" class="checkbox-indicator"></div>
+    </label><label id="element-5043-label" y-id="element-5043-label" y-type="opt-in-checkbox" style="border-radius: 0px 0px 0px 0px;height: 19px;width: 362px;background: transparent ;border: 1px solid transparent;box-sizing: border-box;color: #fff;cursor: auto;font-family: &#39;Open Sans&#39;, sans-serif;font-size: 12px;font-style: initial;font-weight: normal;text-align: left;text-decoration: initial;outline: none;position: absolute;top: 0px;left: 18px" aria-label="opt-in-checkbox" for="element-5043">Yes, I want to receive news and product emails from Logitech G.</label></div></fieldset><button type="submit" role="button" id="element-19253" y-id="element-19253" y-type="cta" style="left: 468px;overflow: visible;position: absolute;top: 0.9999990463256836px;height: 39.000000953674316px;width: 32px;z-index: 3;white-space: pre-wrap;border-radius: 0px 0px 0px 0px;background: rgba(0,119,204,0) ;border: 0px solid transparent;box-sizing: border-box;color: #fff;cursor: pointer;font-family: &#39;Open Sans&#39;, sans-serif;font-size: 16px;font-style: initial;font-weight: normal;text-align: center;text-decoration: initial;outline: none" aria-label=""></button><div id="element-39050" y-id="element-39050" y-type="text" style="left: 0px;overflow: visible;position: absolute;top: 48px;height: 124px;width: 500px;z-index: 2;white-space: pre-wrap;border-radius: 0px 0px 0px 0px;background: transparent ;border: 0px solid transparent;box-sizing: border-box;color: #fff;cursor: default;font-family: custom-font-6319, Open Sans;font-size: 37px;font-style: initial;font-weight: normal;text-align: center;text-decoration: initial;outline: none">Stay up to date
+on the latest
+from Logitech G</div><script>var OVERLAY_SETTINGS = {"componentId":130048070644,"url":"https://td.yieldify.com/0.0.1/campaign_overlays/121902/1.171.0/overlay_22950ec6-70ea-5aa9-af78-c885890a8a20.html","dimensions":{"width":"500px","height":"500px"},"overlayElements":[{"id":"element-10000","text":"","type":"body","color":"initial","fontSize":0,"position":{"top":0,"left":0},"fontStyle":"initial","textAlign":"initial","borderSize":0,"dimensions":{"width":500,"height":500},"fontFamily":"initial","fontWeight":"initial","borderColor":"#41c6bf","borderRadius":{"unit":"px","topLeft":0,"topRight":0,"bottomLeft":0,"bottomRight":0},"textDecoration":"initial","backgroundColor":"rgba(237,237,237,0)","backgroundImage":"https://assets-v2.yieldify.com/images/121902/2019/10/28/70b76f81-f80b-43cd-8f7b-72b8a83d2781.png"},{"id":"element-95677","type":"form","children":[{"id":"element-58827","name":"email","text":"","type":"input","color":"#0f0f0f","fontSize":14,"position":{"top":208,"left":74},"alignment":"none","fontStyle":"initial","textAlign":"center","borderSize":0,"dimensions":{"width":241,"height":46},"fontFamily":"'Open Sans', sans-serif","fontWeight":"initial","borderColor":"rgba(153,153,153,0.5)","placeholder":"Enter Address","borderRadius":{"unit":"px","topLeft":0,"topRight":0,"bottomLeft":0,"bottomRight":0},"textDecoration":"initial","backgroundColor":"rgba(255,255,255,0)","backgroundImage":"none","validationRules":[{"type":"required","message":"Input is required"},{"type":"regex","constraint":"^[a-zA-Z0-9$!#%&'*+\\/=?^_`{|}~-]+(?:\\.[a-zA-Z0-9$!#%&'*+\\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$"}]},{"id":"element-3180","text":"SUBMIT","type":"cta","color":"#fff","onClick":{"type":"next","countAsClick":true},"fontSize":16,"position":{"top":211,"left":315},"alignment":"none","fontStyle":"initial","textAlign":"center","borderSize":0,"dimensions":{"width":111,"height":42},"fontFamily":"custom-font-6319, Open Sans","fontWeight":"normal","borderColor":"transparent","borderRadius":{"unit":"px","topLeft":0,"topRight":0,"bottomLeft":0,"bottomRight":0},"textDecoration":"initial","backgroundColor":"rgba(0,119,204,0)","backgroundImage":"none"},{"id":"element-5043","name":"opt-in-checkbox","text":"Yes, I want to receive news and product emails from Logitech G.","type":"checkbox","color":"#fff","fontSize":12,"position":{"top":263,"left":77},"alignment":"none","fontStyle":"initial","textAlign":"left","borderSize":1,"dimensions":{"width":380,"height":19},"fontFamily":"'Open Sans', sans-serif","fontWeight":"normal","borderColor":"transparent","borderRadius":{"unit":"px","topLeft":0,"topRight":0,"bottomLeft":0,"bottomRight":0},"textDecoration":"initial","backgroundColor":"transparent","backgroundImage":"none","validationRules":[{"type":"checked","message":"Opting in is required"}]}]},{"id":"element-19253","text":"","type":"cta","color":"#fff","onClick":{"type":"dismiss","countAsClick":false},"fontSize":16,"position":{"top":0.9999990463256836,"left":468},"alignment":"none","fontStyle":"initial","textAlign":"center","borderSize":0,"dimensions":{"width":32,"height":39.000000953674316},"fontFamily":"'Open Sans', sans-serif","fontWeight":"normal","borderColor":"transparent","borderRadius":{"unit":"px","topLeft":0,"topRight":0,"bottomLeft":0,"bottomRight":0},"textDecoration":"initial","backgroundColor":"rgba(0,119,204,0)","backgroundImage":"none"},{"id":"element-39050","text":"Stay up to date\non the latest\nfrom Logitech G","type":"text","color":"#fff","fontSize":37,"position":{"top":48,"left":0},"alignment":"none","fontStyle":"initial","textAlign":"center","borderSize":0,"dimensions":{"width":500,"height":124},"fontFamily":"custom-font-6319, Open Sans","fontWeight":"normal","borderColor":"transparent","borderRadius":{"unit":"px","topLeft":0,"topRight":0,"bottomLeft":0,"bottomRight":0},"textDecoration":"initial","backgroundColor":"transparent","backgroundImage":"none"}],"format":"Overlay","displayOrder":0,"accessibility":{"ariaLabel":""},"position":"Centre"};
+var ADVANCED_COMPONENTS = {};</script><script src="./main-ec.js.download"></script></form></body></html>
